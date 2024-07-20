@@ -1,11 +1,11 @@
-1. Python Libraries:
+**1. Python Libraries:**
 
 ```python
 import sqlite3  # For database interaction (consider more robust options in production)
 from datetime import date  # For working with dates
 ```
 
-2. User Authentication (Basic Example):
+**2. User Authentication (Basic Example):**
 
 ```python
 def create_user(username, password, email, first_name, last_name, risk_tolerance):
@@ -39,7 +39,7 @@ def login_user(username, password):
     return None
 ```
 
-3. Adding Transactions:
+**3. Adding Transactions:**
 
 ```python
 def add_transaction(account_id, date, amount, category, payee="", memo=""):
@@ -54,7 +54,7 @@ def add_transaction(account_id, date, amount, category, payee="", memo=""):
   conn.close()
 ```
 
-4. Net Worth Calculation (Simplified Example):
+**4. Net Worth Calculation (Simplified Example):**
 
 ```python
 def calculate_net_worth():
