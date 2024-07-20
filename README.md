@@ -7,30 +7,30 @@ Python Financial Planning App (EMPOWER)
 
 This Python code provides a basic framework for a financial planning application. It uses a SQLite database to store user information, accounts, transactions, and other financial data.
 
-**Features:**
+**<h3>Features:</h3>**
 
-**##User authentication**
+**<h4>User authentication</h4>**
 Adding transactions (with categories and optional payee/memo)
 Calculating net worth (simplified version)
 
-**##Requirements:**
+**<h4>Requirements:</h4>**
 
-Python 3
-sqlite3 library
+<ol><li>Python 3</li>
+<li>Sqlite3 library</li></ol>
 
-**##Setup:**
+**<h4>Setup:</h4>**
 
 Created a database file named finance.db.
 This code uses a very basic user authentication mechanism. More secure password hashing will be implemented in production.
 
-**#Usage:**
+**<h4>Usage:</h4>**
 
 The code includes functions for user management, adding transactions, and calculating net worth. 
 
 
 This is a prototype. A production-ready application would require additional functionalities, security measures, and error handling.
 
-**#Further Development:**
+**<h4>Further Development:</h4>**
 
 Implemention of more comprehensive user authentication and authorization.
  Support for multiple accounts and categories.
