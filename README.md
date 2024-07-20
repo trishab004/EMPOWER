@@ -23,14 +23,14 @@ sqlite3 library
 Created a database file named finance.db.
 This code uses a very basic user authentication mechanism. More secure password hashing will be implemented in production.
 
-**##Usage:**
+**#Usage:**
 
 The code includes functions for user management, adding transactions, and calculating net worth. 
 
 
 This is a prototype. A production-ready application would require additional functionalities, security measures, and error handling.
 
-Further Development:
+**#Further Development:**
 
 Implemention of more comprehensive user authentication and authorization.
  Support for multiple accounts and categories.
